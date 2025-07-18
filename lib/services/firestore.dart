@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
   
   class Firestore {
 
-    final tasks = FirebaseFirestore.instance.collection('Tasks');
+    final tasks = FirebaseFirestore.instance.collection('tasks');
   
   // This function adds a task to the firestore db as long as the task textfield is not empty  
     void addTask(String title) {

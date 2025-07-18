@@ -5,7 +5,7 @@ import 'package:intl/intl.dart';
 
 class HomeScreen extends StatelessWidget {
   final TextEditingController taskController = TextEditingController();
-  final tasks = FirebaseFirestore.instance.collection('Tasks');
+  final tasks = FirebaseFirestore.instance.collection('tasks');
   final fireStore =  Firestore();
 
   HomeScreen({super.key});
